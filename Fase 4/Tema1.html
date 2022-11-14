@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de HTML</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1>
+            Fundamentos de HTML
+        </h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Tema1.html">Fundamentos de HTML</a></li>
+                            <li><a class="dropdown-item" href="Tema2.html">Interaccion Humano-Ordenador</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Recursos Digitales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Recurso1.html">Recurso 1</a></li>
+                            <li><a class="dropdown-item" href="Recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Aprendizaje1.html">Aprendizaje 1</a></li>
+                            <li><a class="dropdown-item" href="Aprendizaje2.html">Aprendizaje 2</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="AcercaDe.html">AcercaDe</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <section class="seccion">
+
+        <article class="articulo">
+            <h4> Fundamentos de HTML</h4>
+            <img src="img/icono html5.png" alt="Icono HTML5">
+            <p>
+            <H4>Definición de HTML5</H4> <br>
+            HTML5 es un estándar que sirve como referencia del software que conecta con <br>
+            la elaboración de páginas web en sus diferentes versiones, define una <br>
+            estructura básica y un código (denominado HTML) para la definición d <br>
+            contenido de una página web, como texto, imágenes, vídeos, juegos, entre <br>
+            otros…
+            </p>
+            <p>
+            <H4>Funcionamiento HTML5</H4>
+            El proceso es el siguiente:<br>
+            </p>
+            <p>
+                <img src="img/esquema_funcionamiento_web.png" height="300" width="600" alt="imagen Funcionamiento">
+            </p>
+            Desde el navegador se realiza una petición a un servidor, lo que se hace a través de una <br>
+            dirección del tipo http://..../index.html. Después el servidor recupera de su disco duro
+            <br>
+            esa página, la devuelve al navegador y la página se muestra.
+
+        </article>
+        <article class="articulo">
+            <h4>Estructura del documento HTML5</h4>
+            <img src="img/estructura doc.jpg" height="300" width="500" alt="Imagen estructura"> <br>
+
+            <p>
+                En HTML existe un esqueleto básico, que todos debemos de conocer porque se viene usando desde los
+                inicios del lenguaje. Nos referimos a <br>
+                la conocida estructura del HEAD / BODY. Toda jerarquía de etiquetas comienza por "HTML" y dentro tenemos
+                dos grandes bloques "HEAD" y <br>
+                "BODY". <br>
+                Dentro del "BODY" van contenidos otros elementos como etiquetas de navegacion "nav", articulos "article"
+                y pies de pagina <br>
+                "footer" por citar algunos.
+            </p>
+
+        </article>
+
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="600"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+        <article>
+            Referencias:
+            Qué es HTML5: Definición y funcionamiento | OpenWebinars. Openwebinars. <br>
+            https://openwebinars.net/blog/que-es-html5/#:~:text=HTML5%20es%20un%20est%C3%A1ndar%20que,v%C3%ADdeos%2C%20juegos%2C%20entre%20otros%E2%80%A6
+            <br>
+            Estructura HTML5: descubre la semántica del código | Arsys. Arsys. <br>
+            https://www.arsys.es/blog/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo
+
+        </article>
+    </section>
+    <hr>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
